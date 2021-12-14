@@ -121,8 +121,7 @@ html {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./Images/project_image3.png");
-  background-color: white;
+  background-image: url("./Images/project_image.png");
   transition: 1s;
 }
 
@@ -137,6 +136,10 @@ html {
   height: 400px;
   background-image: url("./Images/resume_image.jpg");
   transition: 1s;
+}
+
+.resume_display h1 {
+  font-size: 4.5rem;
 }
 
 .project_display:hover {
@@ -243,6 +246,14 @@ html {
 
 }
 
+.project_3 {
+  display: inline-block;
+  width: 47%;
+  height: auto;
+  text-align: left;
+  padding: 1rem;
+}
+
 .project_1_info {
   width: 47%;
   display: inline-block;
@@ -267,6 +278,19 @@ html {
   font-weight: lighter;
 }
 
+.project_3_info {
+  width: 47%;
+  display: inline-block;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.project_3_info h6 {
+  font-weight: lighter;
+}
+
+
 .project_1_pics {
   display: inline-block;
   width: 45%;
@@ -286,6 +310,17 @@ html {
 .project_2_pics img {
   width: 80%;
   height: auto;
+}
+
+.project_3_pics {
+  display: inline-block;
+  width: 45%;
+}
+
+.projects_3_pics img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 
@@ -308,8 +343,7 @@ html {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./Images/project_image3.png");
-  background-color: white;
+  background-image: url("./Images/project_image2.jpg");
   transition: 1s;
 }
 
@@ -324,6 +358,7 @@ html {
   height: 400px;
   background-image: url("./Images/resume_image.jpg");
   transition: 1s;
+
 }
 
 .project_3_display {
@@ -335,8 +370,9 @@ html {
   border: 6px solid white;
   border-radius: 35px;
   height: 400px;
-  background-color: white;
+  background-image: url("./Images/project_image3.png");
   transition: 1s;
+  color: white;
 }
 
 .project_4_display {
@@ -381,8 +417,24 @@ html {
 
 /* Work Experience */
 
+
 .academy_essay {
+  margin: 2rem;
+}
+
+.academy_essay h1{
   text-align: center;
+
+}
+
+
+.academy_essay h4 {
+  font-size: 1.2rem;
+  display: inline;
+  font-weight: normal;
+  color: black; 
+  line-height: 2rem;
+  text-align: left;
 }
 
 
@@ -454,11 +506,19 @@ html {
     width: 90%;
   }
 
+  .project_3 {
+    width: 90%;
+}
+
   .project_1_info {
     width: 100%;
   }
 
   .project_2_info {
+    width: 100%;
+  }
+
+  .project_3_info {
     width: 100%;
   }
   
@@ -474,11 +534,18 @@ html {
     font-size: 1.5rem;
   }
 
+  .project_3_info h6 {
+    font-size: 1.5rem;
+  }
   .project_1_pics {
     width: 100%;
   }
 
   .project_2_pics {
+    width: 100%;
+  }
+
+  .project_3_pics {
     width: 100%;
   }
   
@@ -489,6 +556,12 @@ html {
   }
 
   .project_2_pics img {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .project_3_pics img {
     width: 45%;
     height: auto;
     display: inline-block;
@@ -561,6 +634,10 @@ html {
     width: 90%;
   }
 
+  .project_3 {
+    width: 90%;
+  }
+
   .project_1_info {
     width: 100%;
   }
@@ -576,6 +653,14 @@ html {
   .project_2_info {
     width: 100%;
   }
+
+  .project_3_info {
+    width: 100%;
+  }
+
+  .project_3_info h6 {
+    font-size: 1.5rem;
+  }
   
   .project_1_pics {
     width: 100%;
@@ -585,6 +670,9 @@ html {
     width: 100%;
   }
   
+  .project_3_pics {
+    width: 100%;
+  }
   .project_1_pics img {
     width: 45%;
     height: auto;
@@ -592,6 +680,12 @@ html {
   }
 
   .project_2_pics img {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .project_3_pics img {
     width: 45%;
     height: auto;
     display: inline-block;
@@ -663,6 +757,10 @@ html {
     width: 90%;
   }
 
+  .project_3 {
+    width: 90%;
+  }
+
   .project_1_info {
     width: 100%;
   }
@@ -679,6 +777,14 @@ html {
     width: 100%;
   }
   
+  .project_3_info {
+    width: 100%;
+  }
+
+  .project_3_info h6 {
+    font-size: 1.5rem;
+  }
+
   .project_1_pics {
     width: 100%;
   }
@@ -687,6 +793,10 @@ html {
     width: 100%;
   }
   
+  .project_3_pics {
+    width: 100%;
+  }
+
   .project_1_pics img {
     width: 45%;
     height: auto;
@@ -694,6 +804,13 @@ html {
   }
 
   .project_2_pics img {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+  }
+
+
+  .project_3_pics img {
     width: 45%;
     height: auto;
     display: inline-block;
@@ -733,6 +850,10 @@ html {
     width: 90%;
   }
 
+  .project_3 {
+    width: 90%;
+  }
+
   .project_1_info {
     width: 45%;
   }
@@ -749,11 +870,23 @@ html {
     width: 45%;
   }
   
+  .project_3_info {
+    width: 45%;
+  }
+
+  .project_3_info h6 {
+    font-size: 1.5rem;
+  }
+
   .project_1_pics {
     width: 45%;
   }
 
   .project_2_pics {
+    width: 45%;
+  }
+
+  .project_3_pics {
     width: 45%;
   }
   
@@ -767,11 +900,14 @@ html {
     height: auto;
   }
 
+  .project_3_pics img {
+    width: 100%;
+    height: auto;
+  }
+
   iframe {
     height: 1150px;
   }
-
-
 
 }
 
